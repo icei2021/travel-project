@@ -15,3 +15,21 @@
     text-align: $alineacion;
     color:$color;
 }
+
+@mixin mobile{
+ @media(max-width:v.$mobile){
+    @content;
+ }
+}
+
+@mixin medium{
+    @media(max-width:v.$medium){
+        @content;
+     }
+}
+
+@mixin desktop{
+    @media(max-width:v.$desktop){
+        @content;
+     }
+}

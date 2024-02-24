@@ -8,8 +8,11 @@
 }
 
 .cards{
-    width: 750px;
+    max-width: 750px;
     margin: 0 auto;
+    @include m.mobile{
+        margin: 0 1rem;
+    }
     .card{
         padding-bottom: 2rem;
         border-bottom: 1px solid v.$color-oscuro;
