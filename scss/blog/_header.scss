@@ -1,0 +1,4 @@
+@use "../base/mixin" as m;
+.header-blog{
+    @include m.header("../img/blog.jpg");
+}

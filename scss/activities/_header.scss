@@ -123,15 +123,5 @@
 }
 
 .header{
-    background-color: v.$color-primario;
-    min-height: 350px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    color: v.$color-blanco;
-    font-family: v.$fuente-primaria;
-    font-size: 2.5rem;
-    background-image: url(../img/activities.jpg);
-    background-size: cover;
-    background-position: center;
+    @include m.header("../img/activities.jpg");
 }

@@ -160,7 +160,7 @@ body {
   color: #fff;
   font-family: "Rajdhani", sans-serif;
   font-size: 2.5rem;
-  background-image: url(../img/activities.jpg);
+  background-image: url("../img/activities.jpg");
   background-size: cover;
   background-position: center;
 }
@@ -298,6 +298,20 @@ body {
   font-size: 1.1rem;
   text-align: center;
   color: #37383C;
+}
+
+.header-blog {
+  background-color: #13B0BB;
+  min-height: 350px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+  font-family: "Rajdhani", sans-serif;
+  font-size: 2.5rem;
+  background-image: url("../img/blog.jpg");
+  background-size: cover;
+  background-position: center;
 }
 
 /*# sourceMappingURL=styles.css.map */
