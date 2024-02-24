@@ -2,12 +2,14 @@
 @use "../base/mixin" as m;
 
 .main{
-    width: 750px;
-    margin: 0 auto;
+    padding-top: 3rem;
+    width: 100%;
+    background-color: v.$color-blanco;
 }
 
 .cards{
-    width: 100%;
+    width: 750px;
+    margin: 0 auto;
     .card{
         padding-bottom: 2rem;
         border-bottom: 1px solid v.$color-oscuro;
@@ -15,6 +17,7 @@
         .card-image{
             width: 100%;
             margin-bottom: 1rem;
+            box-shadow: 1rem 1rem 0.1rem v.$color-claro;
         }
         .card-title{
             @include m.title(2.2rem, left, v.$color-oscuro, 0.5rem);

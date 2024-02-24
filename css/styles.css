@@ -104,16 +104,17 @@ body {
   background-image: url(../../img/activities.jpg);
   background-size: cover;
   background-position: center;
-  margin-bottom: 3rem;
 }
 
 .main {
-  width: 750px;
-  margin: 0 auto;
+  padding-top: 3rem;
+  width: 100%;
+  background-color: #fff;
 }
 
 .cards {
-  width: 100%;
+  width: 750px;
+  margin: 0 auto;
 }
 .cards .card {
   padding-bottom: 2rem;
@@ -123,6 +124,7 @@ body {
 .cards .card .card-image {
   width: 100%;
   margin-bottom: 1rem;
+  box-shadow: 1rem 1rem 0.1rem #EDF6FC;
 }
 .cards .card .card-title {
   font-family: "Rajdhani", sans-serif;
