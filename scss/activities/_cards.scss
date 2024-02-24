@@ -1,0 +1,35 @@
+@use "../base/variables" as v;
+@use "../base/mixin" as m;
+
+.main{
+    width: 750px;
+    margin: 0 auto;
+}
+
+.cards{
+    width: 100%;
+    .card{
+        padding-bottom: 2rem;
+        border-bottom: 1px solid v.$color-oscuro;
+        margin-bottom: 2.5rem;
+        .card-image{
+            width: 100%;
+            margin-bottom: 1rem;
+        }
+        .card-title{
+            @include m.title(2.2rem, left, v.$color-oscuro, 0.5rem);
+        }
+        .card-text{
+            @include m.texto(1.1rem, justify, v.$color-oscuro );
+            line-height: 2;
+            margin-bottom: 1rem;
+        }
+        .card-link{
+            color: v.$color-secundario;
+            font-family: v.$fuente-primaria;
+            font-weight: bold;
+            text-transform: uppercase;
+            font-size: 1.5rem;
+        }
+    }
+}

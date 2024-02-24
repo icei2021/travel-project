@@ -101,9 +101,51 @@ body {
   color: #fff;
   font-family: "Rajdhani", sans-serif;
   font-size: 2.5rem;
-  background-image: url(../../img/blog.jpg);
+  background-image: url(../../img/activities.jpg);
   background-size: cover;
   background-position: center;
+  margin-bottom: 3rem;
+}
+
+.main {
+  width: 750px;
+  margin: 0 auto;
+}
+
+.cards {
+  width: 100%;
+}
+.cards .card {
+  padding-bottom: 2rem;
+  border-bottom: 1px solid #37383C;
+  margin-bottom: 2.5rem;
+}
+.cards .card .card-image {
+  width: 100%;
+  margin-bottom: 1rem;
+}
+.cards .card .card-title {
+  font-family: "Rajdhani", sans-serif;
+  margin-bottom: 0.5rem;
+  font-size: 2.2rem;
+  text-align: left;
+  color: #37383C;
+}
+.cards .card .card-text {
+  font-family: "Lato", serif;
+  line-height: 1.6;
+  font-size: 1.1rem;
+  text-align: justify;
+  color: #37383C;
+  line-height: 2;
+  margin-bottom: 1rem;
+}
+.cards .card .card-link {
+  color: #01BEA0;
+  font-family: "Rajdhani", sans-serif;
+  font-weight: bold;
+  text-transform: uppercase;
+  font-size: 1.5rem;
 }
 
 /*# sourceMappingURL=styles.css.map */
