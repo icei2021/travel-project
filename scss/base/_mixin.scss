@@ -1,0 +1,17 @@
+@use "variables" as v;
+
+@mixin texto($tamanio, $alineacion, $color){
+    font-family: v.$fuente-secundaria;
+    line-height: 1.6;
+    font-size: $tamanio;
+    text-align: $alineacion;
+    color:$color;
+}
+
+@mixin title($tamanio, $alineacion, $color, $separacion:1rem){
+    font-family: v.$fuente-primaria;
+    margin-bottom: $separacion;
+    font-size: $tamanio;
+    text-align: $alineacion;
+    color:$color;
+}

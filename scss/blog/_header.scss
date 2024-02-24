@@ -1,0 +1,93 @@
+@use "../base/variables" as v;
+
+.navigation-container{
+    padding: 0.5rem 1.5rem;
+}
+
+.navigation-top{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: v.$color-primario;
+    .navigation-networks{
+        display: flex;
+        gap: 1.5rem;
+        a{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            width: 45px;
+            height: 45px;
+            border-radius: 100%;
+            color: v.$color-blanco;
+            font-size: 1.3rem;
+
+        }
+        a:nth-child(1){
+            background-color: #3B5998;
+        }
+        a:nth-child(2){
+            background-color: #00ACED;
+        }
+        a:nth-child(3){
+            background-color: #FF3F67;
+        }
+
+    }
+    .navigation-contact{
+        display: flex;
+        gap: 1.3rem;
+        .navigation-text{
+            color: v.$color-blanco;
+            font-family: v.$fuente-primaria;
+            font-weight: 700;
+            i{
+                margin-right: 0.5rem;
+            }
+        }
+    }
+}
+
+.navigation-bottom{
+    background-color: v.$color-blanco;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+
+    .logo{
+        text-transform: uppercase;
+        font-size: 2rem;
+        font-family: v.$fuente-primaria;
+        font-weight: 700;
+        color: v.$color-oscuro;
+
+        span{
+            color: v.$color-primario;
+        }
+    }
+    .navigation-list{
+        display: flex;
+        gap: 5rem;
+        .navigation-link{
+            color: v.$color-oscuro;
+            font-family: v.$fuente-primaria;
+            font-size: 1.2rem;
+            font-weight: 700;
+        }
+    }
+}
+
+.header{
+    background-color: v.$color-primario;
+    min-height: 350px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: v.$color-blanco;
+    font-family: v.$fuente-primaria;
+    font-size: 2.5rem;
+    background-image: url(../../img/blog.jpg);
+    background-size: cover;
+    background-position: center;
+}

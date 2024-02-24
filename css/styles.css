@@ -1,0 +1,109 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  list-style-type: none;
+}
+
+.container {
+  width: 85%;
+  margin: 2rem auto;
+}
+
+html {
+  font-size: 16px;
+}
+
+body {
+  background-color: #EDF6FC;
+}
+
+.navigation-container {
+  padding: 0.5rem 1.5rem;
+}
+
+.navigation-top {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #13B0BB;
+}
+.navigation-top .navigation-networks {
+  display: flex;
+  gap: 1.5rem;
+}
+.navigation-top .navigation-networks a {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 45px;
+  height: 45px;
+  border-radius: 100%;
+  color: #fff;
+  font-size: 1.3rem;
+}
+.navigation-top .navigation-networks a:nth-child(1) {
+  background-color: #3B5998;
+}
+.navigation-top .navigation-networks a:nth-child(2) {
+  background-color: #00ACED;
+}
+.navigation-top .navigation-networks a:nth-child(3) {
+  background-color: #FF3F67;
+}
+.navigation-top .navigation-contact {
+  display: flex;
+  gap: 1.3rem;
+}
+.navigation-top .navigation-contact .navigation-text {
+  color: #fff;
+  font-family: "Rajdhani", sans-serif;
+  font-weight: 700;
+}
+.navigation-top .navigation-contact .navigation-text i {
+  margin-right: 0.5rem;
+}
+
+.navigation-bottom {
+  background-color: #fff;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.navigation-bottom .logo {
+  text-transform: uppercase;
+  font-size: 2rem;
+  font-family: "Rajdhani", sans-serif;
+  font-weight: 700;
+  color: #37383C;
+}
+.navigation-bottom .logo span {
+  color: #13B0BB;
+}
+.navigation-bottom .navigation-list {
+  display: flex;
+  gap: 5rem;
+}
+.navigation-bottom .navigation-list .navigation-link {
+  color: #37383C;
+  font-family: "Rajdhani", sans-serif;
+  font-size: 1.2rem;
+  font-weight: 700;
+}
+
+.header {
+  background-color: #13B0BB;
+  min-height: 350px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+  font-family: "Rajdhani", sans-serif;
+  font-size: 2.5rem;
+  background-image: url(../../img/blog.jpg);
+  background-size: cover;
+  background-position: center;
+}
+
+/*# sourceMappingURL=styles.css.map */
