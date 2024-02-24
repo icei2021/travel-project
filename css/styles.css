@@ -121,6 +121,9 @@ body {
   border-bottom: 1px solid #37383C;
   margin-bottom: 2.5rem;
 }
+.cards .card:last-child {
+  margin-bottom: 0;
+}
 .cards .card .card-image {
   width: 100%;
   margin-bottom: 1rem;
@@ -148,6 +151,70 @@ body {
   font-weight: bold;
   text-transform: uppercase;
   font-size: 1.5rem;
+}
+
+.footer {
+  padding: 3rem 0;
+  background-color: #fff;
+}
+
+.footer-top {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 3rem;
+}
+.footer-top .logo {
+  text-transform: uppercase;
+  font-size: 2rem;
+  font-family: "Rajdhani", sans-serif;
+  font-weight: 700;
+  color: #37383C;
+}
+.footer-top .logo span {
+  color: #13B0BB;
+}
+.footer-top .navigation-networks {
+  display: flex;
+  gap: 1.5rem;
+}
+.footer-top .navigation-networks a {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 45px;
+  height: 45px;
+  border-radius: 100%;
+  color: #fff;
+  font-size: 1.3rem;
+}
+.footer-top .navigation-networks a:nth-child(1) {
+  background-color: #3B5998;
+}
+.footer-top .navigation-networks a:nth-child(2) {
+  background-color: #00ACED;
+}
+.footer-top .navigation-networks a:nth-child(3) {
+  background-color: #FF3F67;
+}
+.footer-top .navigation-list {
+  display: flex;
+  gap: 5rem;
+}
+.footer-top .navigation-list .navigation-link {
+  color: #37383C;
+  font-family: "Rajdhani", sans-serif;
+  font-size: 1.2rem;
+  font-weight: 700;
+}
+
+.footer-bottom {
+  margin-top: 3rem;
+  font-family: "Lato", serif;
+  line-height: 1.6;
+  font-size: 1.1rem;
+  text-align: center;
+  color: #37383C;
 }
 
 /*# sourceMappingURL=styles.css.map */
